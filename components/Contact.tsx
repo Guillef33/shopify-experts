@@ -36,7 +36,7 @@ export default function Contact() {
         {/* Contact options */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12">
           <a
-            href="mailto:hola@guillermoflores.com.ar"
+            href="mailto:guillef33@gmail.com"
             className="group bg-[#111] border border-[#1a1a1a] hover:border-[#00C853]/30 rounded-xl p-6 text-left transition-all duration-300 hover:bg-[#111]"
           >
             <div className="text-2xl mb-3">✉️</div>
@@ -65,7 +65,7 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <a href="mailto:hola@guillermoflores.com.ar" className="btn-primary text-sm">
+          <a href="mailto:guillef33@gmail.com" className="btn-primary text-sm">
             Send Us a Message
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path

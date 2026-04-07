@@ -17,6 +17,8 @@ export default function Navbar() {
     { label: "Services", href: "#services" },
     { label: "Work", href: "#work" },
     { label: "About", href: "#about" },
+    { label: "Cases", href: "/cases" },
+
     { label: "Contact", href: "#contact" },
   ];
 
@@ -108,7 +110,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="https://api.whatsapp.com/send?phone=541167062068&text=Hola%20%21%20Quisiera%20m%C3%A1s%20info"
             onClick={() => setMenuOpen(false)}
             className="btn-primary w-full justify-center mt-2"
           >
