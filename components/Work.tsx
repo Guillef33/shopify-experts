@@ -168,10 +168,10 @@ export default function Work() {
         {/* Bottom CTA */}
         <div className="mt-12 text-center">
           <p className="text-[#555] font-body text-sm mb-4">
-            Want to see more? We'll share detailed case studies on request.
+            How we can achieve similar results for your brand.
           </p>
-          <a href="#contact" className="btn-outline">
-            Request Case Studies
+          <a href="/cases" className="btn-outline">
+           View Cases
           </a>
         </div>
       </div>

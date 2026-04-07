@@ -62,7 +62,7 @@ export default function Navbar() {
               <span className="dot" />
               Available for projects
             </div>
-            <a href="#contact" className="btn-primary text-xs py-2.5 px-5">
+            <a href="https://api.whatsapp.com/send?phone=541167062068&text=Hi%21%20I%20want%20to%20grow%20my%20Shopify%20store" className="btn-primary text-xs py-2.5 px-5">
               Let's Talk
             </a>
           </div>
@@ -110,7 +110,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://api.whatsapp.com/send?phone=541167062068&text=Hola%20%21%20Quisiera%20m%C3%A1s%20info"
+            href="https://api.whatsapp.com/send?phone=541167062068&text=Hi%21%20I%20want%20to%20grow%20my%20Shopify%20store"
             onClick={() => setMenuOpen(false)}
             className="btn-primary w-full justify-center mt-2"
           >

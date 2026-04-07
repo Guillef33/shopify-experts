@@ -17,6 +17,7 @@ const team = [
     ],
     initials: "GF",
     accent: "#00C853",
+    img: "/img/guillermo.png"
   },
   {
     name: "Alfredo",
@@ -35,6 +36,7 @@ const team = [
     ],
     initials: "AL",
     accent: "#00C853",
+    img: "/img/alfredo.png"
   },
 ];
 
@@ -72,7 +74,14 @@ export default function About() {
               <div className="relative">
                 {/* Avatar + name */}
                 <div className="flex items-start gap-5 mb-6">
-                  <div
+                  <div>
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      className="w-16 h-16 rounded-2xl object-cover flex-shrink-0"
+                    />
+                  </div>
+                  {/* <div
                     className="w-16 h-16 rounded-2xl flex items-center justify-center font-display text-2xl flex-shrink-0"
                     style={{
                       background: `${member.accent}15`,
@@ -81,7 +90,7 @@ export default function About() {
                     }}
                   >
                     {member.initials}
-                  </div>
+                  </div> */}
                   <div>
                     <h3 className="font-heading font-bold text-xl text-cream mb-1">
                       {member.name}

@@ -81,7 +81,7 @@ export default function Hero() {
 
       {/* Shopify badge — bottom-left floating */}
       <div
-        className="absolute bottom-16 left-8 hidden lg:block"
+        className="absolute bottom-32 left-8 hidden lg:block"
         style={{ animation: "float 8s ease-in-out infinite 3s" }}
       >
         <div className="bg-[#161616] border border-[#222] rounded-xl px-4 py-3 flex items-center gap-3">

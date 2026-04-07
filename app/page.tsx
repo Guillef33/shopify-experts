@@ -21,7 +21,7 @@ export default function Home() {
       <Work />
       <About />
       <Process />
-      <SocialProof />
+      {/* <SocialProof /> */}
       <Contact />
       <Footer />
     </main>
