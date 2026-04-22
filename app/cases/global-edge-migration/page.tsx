@@ -209,21 +209,34 @@ export default function GlobalEdgeCasePage() {
         </div>
       </section>
 
-      {/* --- FINAL CTA --- */}
-      <section className="py-32 md:py-64 text-center px-6 relative overflow-hidden bg-black">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[800px] h-[300px] md:h-[800px] bg-[#00c853]/10 rounded-full blur-[80px] md:blur-[150px] -z-10"></div>
-        <h2 className="text-5xl md:text-[10rem] font-[var(--font-bebas)] text-white uppercase italic leading-[0.9] md:leading-[0.85] mb-10">
-            Engineered <br/>for <span className="text-[#00c853]">Growth.</span>
-        </h2>
-        <p className="max-w-2xl mx-auto text-zinc-500 font-light text-lg md:text-xl mb-12 md:mb-16 italic font-[var(--font-syne)] leading-relaxed">
-            Stop patching. Start engineering. If your current storefront is a bottleneck, it's time to move to the Edge.
-        </p>
-        <a 
-          href="mailto:shopifydevsinfo@gmail.com" 
-          className="w-full md:w-auto px-12 md:px-20 py-6 md:py-8 bg-[#00c853] text-black font-black uppercase tracking-[0.2em] md:tracking-[0.3em] text-[10px] md:text-[12px] hover:scale-105 transition-all shadow-[0_0_50px_#00c85377] inline-block"
-        >
-          Request Technical Audit
-        </a>
+      {/* --- FINAL CTA: WHATSAPP GATEWAY --- */}
+      <section className="py-32 md:py-64 px-6 relative overflow-hidden bg-black border-t border-zinc-900">
+        {/* Glow effect de fondo */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[800px] h-[300px] md:h-[800px] bg-[#00c853]/5 rounded-full blur-[120px] -z-10"></div>
+        
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-5xl md:text-8xl font-[var(--font-bebas)] text-white uppercase italic leading-none mb-8">
+            Start the <span className="text-[#00c853]">Refactor.</span>
+          </h2>
+          <p className="text-zinc-500 font-light text-lg md:text-xl mb-12 italic max-w-xl mx-auto">
+            Ready to move your infrastructure to the Edge? Connect directly with our engineering team.
+          </p>
+
+          <div className="flex flex-col items-center gap-6">
+            <a 
+              href="https://api.whatsapp.com/send?phone=541167062068&text=Hi%21%20I%20want%20to%20grow%20my%20Shopify%20store" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-12 py-6 bg-[#00c853] text-black font-black uppercase tracking-[0.3em] text-[12px] hover:scale-105 transition-all shadow-[0_0_40px_#00c85344] active:scale-95"
+            >
+              Let's Talk
+            </a>
+            
+            <p className="text-zinc-700 text-[10px] font-mono uppercase tracking-[0.4em] animate-pulse">
+              [Status] Engineering Line: Secure & Online
+            </p>
+          </div>
+        </div>
       </section>
 
       <Footer />
