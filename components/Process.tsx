@@ -1,3 +1,5 @@
+import SectionHeader from "./SectionHeader";
+
 const steps = [
   {
     number: "01",
@@ -31,24 +33,16 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="py-24 lg:py-32 border-b border-[#1a1a1a]">
+    <section id="process" className="py-24 lg:py-32 border-b border-[#1a1a1a]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16">
-          <div>
-            <div className="badge mb-5">
-              <span className="dot" />
-              How We Work
-            </div>
-            <h2 className="font-display text-5xl lg:text-7xl text-cream leading-none">
-              THE
-              <br />
-              <span className="text-[#00C853]">PROCESS</span>
-            </h2>
-          </div>
-          <p className="text-[#888] font-body max-w-xs leading-relaxed text-sm">
-            Transparent, structured, and results-focused. You'll always know where your project stands.
-          </p>
-        </div>
+        
+        {/* USANDO EL COMPONENTE MAESTRO */}
+        <SectionHeader 
+          badge="How We Work"
+          title1="THE"
+          title2="PROCESS"
+          description="Transparent, structured, and results-focused. You'll always know where your project stands."
+        />
 
         <div className="relative">
           {/* Connecting line */}
