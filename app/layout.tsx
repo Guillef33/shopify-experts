@@ -24,6 +24,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <meta
+          name="google-site-verification"
+          content="dUL1D0ZDoN1hpdu3amD4_VvFA6QrDFngJv3rHVxQoNY"
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BX168QDS6E"
           strategy="afterInteractive"
