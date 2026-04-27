@@ -1,3 +1,5 @@
+import SectionHeader from "./SectionHeader";
+
 const services = [
   {
     icon: "⚡",
@@ -53,26 +55,16 @@ export default function Services() {
   return (
     <section id="services" className="py-24 lg:py-32 border-b border-[#1a1a1a]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16">
-          <div>
-            <div className="badge mb-5">
-              <span className="dot" />
-              What We Do
-            </div>
-            <h2 className="font-display text-5xl lg:text-7xl text-cream leading-none">
-              OUR
-              <br />
-              <span className="text-[#00C853]">SERVICES</span>
-            </h2>
-          </div>
-          <p className="text-[#888] font-body max-w-sm leading-relaxed text-sm lg:text-base">
-            End-to-end Shopify expertise — from first commit to conversion
-            optimization. We don't just build stores; we build revenue machines.
-          </p>
-        </div>
+        
+        {/* HEADER UNIFICADO */}
+        <SectionHeader 
+          badge="What We Do"
+          title1="OUR"
+          title2="SERVICES"
+          description="End-to-end Shopify expertise — from first commit to conversion optimization. We don't just build stores; we build revenue machines."
+        />
 
-        {/* Grid */}
+        {/* Grid - Mantenemos tu estructura de tarjetas que está perfecta */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#1a1a1a]">
           {services.map((service, i) => (
             <div
