@@ -147,12 +147,13 @@ export default function EngineeringCasePage() {
         <p className="max-w-xl mx-auto text-zinc-500 font-light text-xl mb-16 italic font-[var(--font-syne)] leading-relaxed">
             Stop building websites. Start building high-performance engineering infrastructure that prints money.
         </p>
-        <a 
-  href="mailto:shopifydevsinfo@gmail.com" 
-  className="px-16 py-6 bg-[#00c853] text-black font-black uppercase tracking-[0.3em] text-[10px] hover:scale-105 transition-all shadow-[0_0_30px_#00c85355] inline-block"
->
-  Transform Your Store
-</a>
+       <a 
+          href="https://api.whatsapp.com/send?phone=541167062068&text=Hi%21%20I%20want%20to%20grow%20my%20Shopify%20store" 
+          target="_blank"
+          className="btn-primary inline-block px-12 py-6 mt-8"
+        >
+          Request Technical Audit
+        </a>
       </section>
 
       <Footer />
