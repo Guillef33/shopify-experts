@@ -138,20 +138,21 @@ export default function EngineeringCasePage() {
         </div>
       </section>
 
-      {/* --- FINAL CTA: WHATSAPP --- */}
-      <section className="py-40 text-center px-6 relative">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-7xl md:text-[10rem] text-cream uppercase leading-none mb-12">
-              Built To <span className="text-[#00C853] text-green-glow">Dominate.</span>
-          </h2>
-          <a 
-            href="https://api.whatsapp.com/send?phone=541167062068&text=Hi%21%20I%20want%20to%20grow%20my%20Shopify%20store" 
-            target="_blank"
-            className="btn-primary inline-block px-16 py-6"
-          >
-            Transform Your Store
-          </a>
-        </div>
+      {/* --- FINAL CTA --- */}
+      <section className="py-64 text-center px-6 relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#00c853]/5 rounded-full blur-[150px] -z-10"></div>
+        <h2 className="text-7xl md:text-[10rem] font-[var(--font-bebas)] text-white uppercase italic leading-[0.85] mb-12">
+            Built <br/>To <span className="text-[#00c853]">Dominate.</span>
+        </h2>
+        <p className="max-w-xl mx-auto text-zinc-500 font-light text-xl mb-16 italic font-[var(--font-syne)] leading-relaxed">
+            Stop building websites. Start building high-performance engineering infrastructure that prints money.
+        </p>
+        <a 
+  href="mailto:shopifydevsinfo@gmail.com" 
+  className="px-16 py-6 bg-[#00c853] text-black font-black uppercase tracking-[0.3em] text-[10px] hover:scale-105 transition-all shadow-[0_0_30px_#00c85355] inline-block"
+>
+  Transform Your Store
+</a>
       </section>
 
       <Footer />
